@@ -1,0 +1,212 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>MY Protfolio</title>
+ 
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+        nav {
+            display: flex;
+            justify-content: left;
+            background-color:rgb(78, 145, 253);
+            padding: 0.5em;
+            
+        }
+
+        .leftcolumn 
+        {   
+           float: left;
+           width: 75%;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ff9900; /* Highlight color on hover */
+        }
+        @media screen and (max-width: 800px) 
+        {
+          .leftcolumn, .rightcolumn
+           {   
+           width: 100%;
+           padding: 0;
+            }
+        }
+
+        section {
+            margin: 120px 5% 20px 5%;
+            padding:30px; 
+            background-color: rgb(103, 147, 241);
+            border-radius: 5px;
+            transition: margin 0.5s ease;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        }
+        section.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .fa {
+            padding: 10px;
+            font-size: 25px;
+            width: 20px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+        
+        </style>
+</head>
+<body>
+    
+    
+    <nav>
+        <div class="leftcolumn">
+            <a href="#about-me">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#work-experience">Work Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
+        </div>
+        
+    </nav>
+    
+    <center> 
+        <header>
+            <h1><u> Supreeth B.L. </u></h1>
+        </header>
+        
+        <img src="https://www.pngarts.com/files/10/Default-Profile-Picture-PNG-Image.png" style="width:100px;height:100px"> <br>
+        Gmail :&nbsp;<a href="mailto:supreethb.btech23@rvu.edu.in" target="_blank">supreethb.btech23@rvu.edu.in</a><br>
+        Contact Number :&nbsp;<a href="tel:90083*****">90083*****</a><br>
+        <a target="_blank" href="https://www.linkedin.com/in/supreeth-b-l-33b6042a6/" class="fa fa-linkedin" target="blank"></a><br>
+        
+        
+        <section id="about-me">
+            <p>
+                Hello, I'm a 1st sem engineering student at RVU, eager to delve into the world of technology and innovation.
+                Passionate about problem-solving and learning, I bring a curious and determined mindset to my studies. Excited to collaborate, grow, and contribute to the vibrant academic community at RVU.
+            </p></section>
+                
+                <section id="education">
+                    <table border="2px" style="width:50%">
+                        <tr>
+                            <th>Education</th>
+                            <th>Institution</th>
+                            <th>Year</th>
+                        </tr>
+                        
+                        <tr>
+                            <td> 10th std </td>
+                            <td> V.V.S.S.P.H.S </td>
+                            <td> 2021 </td>
+                        </tr>
+                        
+                        <tr>
+                            <td> II PU(PCMB) </td>
+                            <td> Sardar Patel PU college </td>
+                            <td> 2023 </td>
+                        </tr>
+                    </table>
+                </center></section>
+                <hr>
+                
+                <section id="work-experience">
+                    
+                    <h2><u> Work Experience: </u></h2>
+                    
+                    <h3>Intern, Infinte Soultions</h3>
+                    
+                    
+                    <p> July 2023 - September 2023 </p>
+                    <ul>
+                        <li> Social Media Handeling. </li>
+<li> Participation in team meetings. </li>
+</ul></section>
+<hr>
+
+<section id="skills">
+    <h2><u> Skills: </u></h2>
+    <center>
+        <table border="2px" style="width:50%">
+            <tr>
+                <th> Skills </th>
+                <th> Specification </th>
+            </tr>
+            
+            <tr>
+                <td> Programing </td>
+                <td> C , Python </td>
+            </tr>
+            
+            <tr>
+                <td> Conflict Resolution </td>
+                <td> Peaceful resolution </td>
+            </tr>
+            
+            <tr>
+                <td> Web Development </td>
+                <td> html </td>
+            </tr>
+            
+        </table></section>
+    </center>
+    <hr>
+    
+    <section id="projects">
+        <h2><u> Projects: </u></h2>
+        
+        <p> 
+            <b> ELIXER </b><br>
+            <u> Overview</u>:  The Elixer Beverages website is a vibrant online destination designed to immerse visitors in a world of extraordinary refreshment. 
+            Its user-friendly interface seamlessly integrates with the brand's identity, offering an engaging and visually stunning platform for exploring a diverse range of soft drinks, fruit juices, and energy drinks. <br><br>
+ 
+        </p>
+    </section>
+    
+    <section id="Certificates">
+        <h2><u> Certificates </u></h2>
+
+        <p>
+            <ul>
+              <li>Certificate of Appreciation for successfully completing Git & GitHub Workshop (25 October 2023)</li>
+              <li>Certificate of participation for Ethical Hacking Workshop (17th November 2023)</li>
+            </ul>
+
+
+        </p>
+    </section>
+    
+</center>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    });
+    </script>
+    </body>
+    </html>
